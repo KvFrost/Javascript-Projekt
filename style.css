@@ -125,6 +125,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  padding-bottom: 4rem;
 }
 a:link , a:visited {
   text-decoration: none;
@@ -149,3 +150,32 @@ h3 {
   padding-bottom: 17px;
 }
 
+#hmlogo {
+  padding-bottom: 3rem;
+  padding-left: 10px;
+}
+
+.text-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  font-size: smaller;
+  padding-left: 15px;
+  padding-bottom: 5rem;
+}
+
+.socials-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  padding-left: 15px;
+  padding-bottom: 4rem;
+}
+
+#socials-logo {
+  width: 250px;
+  height: auto;
+  padding-right: 20px;
+}
