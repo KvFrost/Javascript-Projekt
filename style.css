@@ -62,3 +62,24 @@ body {
   padding-right: 15px;
 }
 /*Main*/
+
+/*Footer*/
+
+.flex-container-titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+a:link , a:visited {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
