@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+.content {
+    padding-top: 40px;
+}
+
 body {
     width: 100%;
     margin: 0 auto;
@@ -16,6 +20,12 @@ body {
     
 }
 
+.header {
+    width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
 
 .leftmenu img{
     width: 30px;
