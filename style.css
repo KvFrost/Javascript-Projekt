@@ -18,6 +18,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: aqua;
+    align-items: center;
     
 }
 
