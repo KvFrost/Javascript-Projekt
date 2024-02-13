@@ -1,49 +1,64 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url(https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular);
+@font-face {
+  font-family: "HM Sans Regular";
+  src: url("https://db.onlinewebfonts.com/t/70f3e46b3bb904260d1b1a6e0f2edf08.eot");
+  src: url("https://db.onlinewebfonts.com/t/70f3e46b3bb904260d1b1a6e0f2edf08.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/70f3e46b3bb904260d1b1a6e0f2edf08.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/70f3e46b3bb904260d1b1a6e0f2edf08.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/70f3e46b3bb904260d1b1a6e0f2edf08.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/70f3e46b3bb904260d1b1a6e0f2edf08.svg#HM Sans Regular")
+      format("svg");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "HM Sans Regular";
 }
 
 .content {
-    padding-top: 40px;
+  padding-top: 40px;
 }
 
 body {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /*Header*/
 .navigations-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    align-items: center;
-    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
 }
 
 .header {
-    width: 100%;
-    position: sticky;
-    z-index: 1000;
-    top: 0;
+  width: 100%;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
 }
 
-.leftmenu img{
-    width: 30px;
-    height: auto;
-    padding-left: 15px;
+.leftmenu img {
+  width: 30px;
+  height: auto;
+  padding-left: 15px;
 }
 
-.logo-container img{
-    margin: 0;
-    width: 70px;
-    
+.logo-container img {
+  margin: 0;
+  width: 70px;
 }
 
-.rightmenu img{
-    width: 35px;
-    height: auto;
-    padding-right: 15px;
+.rightmenu img {
+  width: 35px;
+  height: auto;
+  padding-right: 15px;
 }
 /*Main*/
