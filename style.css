@@ -62,23 +62,6 @@ body {
   padding-right: 15px;
 }
 /*Main*/
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 2fr;
-    grid-gap: 0;
-  }
-  
-.grid-item {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-.grid-item:nth-child(1),
-.grid-item:nth-child(2) {
-    align-self: center;
-    justify-self: center;
-  }
 
 /*Footer*/
 
@@ -108,4 +91,9 @@ h3 {
 
 .text-footer, h3 {
   padding-bottom: 17px;
+}
+
+.hm-logo {
+  width: 20rem;
+  height: auto;
 }
