@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="style.css">
         <link href="https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular" rel="stylesheet">
         <title>H&M Javascript Projekt</title>
+        <script src="search.js" defer></script>
     </head>
 
     <body>
@@ -26,6 +27,19 @@
                             <img src="billeder/login.png" alt="Log-ind">
                             <img src="billeder/favoritter.png" alt="Favorit">
                             <img src="billeder/indkoebskurv.png" alt="Kurv">
+                        </div>
+
+                        <div class="search-bar" id="searchBar">
+                            <span class="close-icon" onclick="toggleSearch()">
+                                  <img src="billeder/luk.png" alt="Søg">
+                            </span>
+                            <input type="text" placeholder="Søg produkter" id="searchInput">
+                            <div class="search-actions">
+                                <span class="search-button" onclick="search()">
+                                    <img src="billeder/loop.png" alt="Søg">
+                                </span>
+    
+                            </div>
                         </div>
                     </nav>
             </header>
