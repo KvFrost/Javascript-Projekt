@@ -12,16 +12,12 @@ body {
 .navigations-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    flex-direction: row;
-}
-.leftmenu, .rightmenu {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+    justify-content: space-between;
+    
 }
 
-.leftmenu li img{
+
+.leftmenu img{
     width: 40px;
     height: auto;
 }
@@ -32,7 +28,7 @@ body {
     
 }
 
-.rightmenu li img{
+.rightmenu img{
     width: 40px;
     height: auto;
 }
