@@ -61,6 +61,46 @@ body {
   height: auto;
   padding-right: 15px;
 }
+
+ /*Search bar del med slide in effekt*/
+  
+ .search-bar {
+  position: absolute;
+  left: -80%; /* Startposition uden for synlighed */
+  top: 0;
+  width: 40%;
+  background-color: white;
+  transition: left 0.5s ease;
+  display: flex;
+  align-items: flex-start;
+}
+
+.search-bar.active {
+  left: 0;
+}
+
+.search-bar input[type="text"] {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-style: none;
+  background-color: white;
+}
+
+.search-actions {
+  display: flex;
+  align-items: flex-start;
+}
+
+.close-icon img{
+  width: 30px;
+}
+
+.search-button img{
+  width: 30px;
+}
+
+
 /*Main*/
 .grid-container {
   display: grid;
