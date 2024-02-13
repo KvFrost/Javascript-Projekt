@@ -32,6 +32,7 @@ body {
 .leftmenu img{
     width: 30px;
     height: auto;
+    padding-left: 15px;
 }
 
 .logo-container img{
@@ -43,4 +44,5 @@ body {
 .rightmenu img{
     width: 35px;
     height: auto;
+    padding-right: 15px;
 }
