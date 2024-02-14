@@ -100,8 +100,8 @@ body {
   width: 30px;
 }
 
-
 /*Main*/
+
 .grid-container {
   display: grid;
   grid-template-rows: 1fr 1fr 2fr;
@@ -109,16 +109,27 @@ body {
 }
 
 .grid-item {
+  position: relative;
   width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.grid-item:nth-child(1),
-.grid-item:nth-child(2) {
-  align-self: center;
-  justify-self: center;
+.image {
+  width: 100%;
+  height: auto;
 }
+
+.text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+}
+
 /*Footer*/
 
 .flex-container-titles {
