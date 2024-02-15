@@ -9,97 +9,79 @@
         <script src="search.js" defer></script>
         <script src="menu.js" defer></script>
     </head>
-
     <body>
-            <header>
-                <nav>
-                    <div class="navigations-container">     
-                        <div class="leftmenu">
-                            <img src="billeder/burgermenu.png" alt="Burgermenu" onclick="openNav()">
-                            <img src="billeder/loop.png" alt="Søg" onclick="toggleSearch()"> 
-                        </div>
-                
-                        <div class="logo-container">
-                            <img src="billeder/logo.png" alt="Logo">
-                        </div>
-        
-                        <div class="rightmenu">
-                            <a href="login.html"><img src="billeder/login.png" alt="Log-ind"> </a>
-                            <img src="billeder/favoritter.png" alt="Favorit">
-                            <img src="billeder/indkoebskurv.png" alt="Kurv">
-                        </div>
-
-                        <div class="search-bar" id="searchBar">
-                            <span class="close-icon" onclick="toggleSearch()">
-                                  <img src="billeder/luk.png" alt="Søg">
-                            </span>
-                            <input type="text" placeholder="Søg produkter" id="searchInput">
-                            <div class="search-actions">
-                                <span class="search-button" onclick="search()">
-                                    <img src="billeder/loop.png" alt="Søg">
-                                </span>
+        <header>
+            <nav>
+                <div class="navigations-container">     
+                    <div class="leftmenu">
+                        <img src="billeder/burgermenu.png" alt="Burgermenu" onclick="openNav()">
+                        <img src="billeder/loop.png" alt="Søg" onclick="toggleSearch()"> 
+                    </div>
+            
+                    <div class="logo-container">
+                        <img src="billeder/logo.png" alt="Logo">
+                    </div>
     
-                            </div>
-                        </div>
-                        <div id="myNav" class="overlay">
-                            <span class="closebtn" onclick="openNav()">
-                                <img src="billeder/luk.png" alt="Close Menu">
+                    <div class="rightmenu">
+                        <a href="login.html"><img src="billeder/login.png" alt="Log-ind"> </a>
+                        <img src="billeder/favoritter.png" alt="Favorit">
+                        <img src="billeder/indkoebskurv.png" alt="Kurv">
+                    </div>
+
+                    <div class="search-bar" id="searchBar">
+                        <span class="close-icon" onclick="toggleSearch()">
+                              <img src="billeder/luk.png" alt="Søg">
+                        </span>
+                        <input type="text" placeholder="Søg produkter" id="searchInput">
+                        <div class="search-actions">
+                            <span class="search-button" onclick="search()">
+                                <img src="billeder/loop.png" alt="Søg">
                             </span>
-                            <div class="overlay-content-container">
-                          <div class="overlay-content1">
-                          <a href="#">DAME</a>
-                          <a href="#">HERRE</a>
-                          <a href="#">BØRN</a>
-                          <a href="#">BABY</a>
-                          <a href="#">HOME</a>
-                          <a href="#">BEAUTY</a>
-                          <a href="#">SALE</a>
-                        </div>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-                    </div>
-                    </nav>
-=======
-=======
->>>>>>> 638b688782261c1b4bfd1e7898187fa304be9dda
->>>>>>> Stashed changes
-                        <div class="overlay-content2">
-                         <a href="#">Sustainability</a><br>
-                          <a href="#">Kundeservice</a><br>
-                          <a href="#">Fashion News</a><br>
-                          <a href="#">Find butik</a><br>
-                          <a href="#">Download Android</a><br>
-                          <a href="#">Download iOS</a>
-                        </div>
-                        <div class="overlay-content3">
-                            <a href="#">INSPIRATION</a>
-                            <a href="#">NYHEDER</a>
-                            <a href="#">POPULÆRT NU</a>
-                        </div>
-                        <div class="overlay-content4">
-                            <a href="#">Tøj</a><br>
-                            <a href="#">Accesories</a><br>
-                            <a href="#">Sko</a><br>
-                            <a href="#">Beauty</a><br>
-                            <a href="#">Sport</a><br>
-                            <a href="#">Mode til alle anledninger</a><br>
-                            <a href="#">Tøjplejeprodukter</a><br><br>
-                            <a href="#" id="color">Sale</a><br><br>
-                            <a href="#">&Brands</a><br>
-                            <a href="#">Gavekort</a><br>
+
                         </div>
                     </div>
-                </nav>
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> 638b688782261c1b4bfd1e7898187fa304be9dda
-=======
->>>>>>> 638b688782261c1b4bfd1e7898187fa304be9dda
->>>>>>> Stashed changes
-            </header>
+                    <div id="myNav" class="overlay">
+                        <span class="closebtn" onclick="openNav()">
+                            <img src="billeder/luk.png" alt="Close Menu">
+                        </span>
+                        <div class="overlay-content-container">
+                        <div class="overlay-content1">
+                        <a href="#">DAME</a>
+                        <a href="#">HERRE</a>
+                        <a href="#">BØRN</a>
+                        <a href="#">BABY</a>
+                        <a href="#">HOME</a>
+                        <a href="#">BEAUTY</a>
+                        <a href="#">SALE</a>
+                    </div>
+                </div>
+                <div class="overlay-content2">
+                    <a href="#">Sustainability</a><br>
+                     <a href="#">Kundeservice</a><br>
+                     <a href="#">Fashion News</a><br>
+                     <a href="#">Find butik</a><br>
+                     <a href="#">Download Android</a><br>
+                     <a href="#">Download iOS</a>
+                </div>
+                <div class="overlay-content3">
+                    <a href="#">INSPIRATION</a>
+                    <a href="#">NYHEDER</a>
+                    <a href="#">POPULÆRT NU</a>
+                </div>
+                <div class="overlay-content4">
+                    <a href="#">Tøj</a><br>
+                       <a href="#">Accesories</a><br>
+                       <a href="#">Sko</a><br>
+                       <a href="#">Beauty</a><br>
+                       <a href="#">Sport</a><br>
+                       <a href="#">Mode til alle anledninger</a><br>
+                       <a href="#">Tøjplejeprodukter</a><br><br>
+                       <a href="#" id="color">Sale</a><br><br>
+                       <a href="#">&Brands</a><br>
+                       <a href="#">Gavekort</a><br>
+                </div>
+            </nav>
+        </header>
         <main>
             <section class="grid-container"> 
                 <div class="grid-item">
