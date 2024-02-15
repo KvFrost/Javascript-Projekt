@@ -7,6 +7,7 @@
         <link href="https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular" rel="stylesheet">
         <title>H&M Javascript Projekt</title>
         <script src="search.js" defer></script>
+        <script src="menu.js" defer></script>
     </head>
 
     <body>
@@ -15,7 +16,7 @@
                 <nav>
                 <div class="navigations-container">     
                         <div class="leftmenu">
-                            <img src="billeder/burgermenu.png" alt="Burgermenu">
+                            <img src="billeder/burgermenu.png" alt="Burgermenu" onclick="openNav()">
                             <img src="billeder/loop.png" alt="Søg" onclick="toggleSearch()"> 
                         </div>
         
@@ -41,10 +42,59 @@
     
                             </div>
                         </div>
+                      
+                          </style>
+                          </head>
+                          <body>
+                          
+                            <div id="myNav" class="overlay">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                    <img src="billeder/lukmenu.png" alt="Close Menu">
+                                </a>
+                                <div class="overlay-content-container">
+                                    <!-- Your overlay content here -->
+                                    <div class="overlay-content1">
+                              <a href="#">DAME</a>
+                              <a href="#">HERRE</a>
+                              <a href="#">BØRN</a>
+                              <a href="#">BABY</a>
+                              <a href="#">HOME</a>
+                              <a href="#">BEAUTY</a>
+                              <a href="#">SALE</a>
+                            </div>
+                            <div class="overlay-content2">
+                             <a href="#">Sustainability</a><br>
+                              <a href="#">Kundeservice</a><br>
+                              <a href="#">Fashion News</a><br>
+                              <a href="#">Find butik</a><br>
+                              <a href="#">Download Android</a><br>
+                              <a href="#">Download iOS</a>
+                            </div>
+                            <div class="overlay-content3">
+                                <a href="#">INSPIRATION</a>
+                                <a href="#">NYHEDER</a>
+                                <a href="#">POPULÆRT NU</a>
+                            </div>
+                            <div class="overlay-content4">
+                                <a href="#">Tøj</a><br>
+                                <a href="#">Accesories</a><br>
+                                <a href="#">Sko</a><br>
+                                <a href="#">Beauty</a><br>
+                                <a href="#">Sport</a><br>
+                                <a href="#">Mode til alle anledninger</a><br>
+                                <a href="#">Tøjplejeprodukter</a><br><br>
+                                <a href="#" id="color">Sale</a><br><br>
+                                <a href="#">&Brands</a><br>
+                                <a href="#">Gavekort</a><br>
+                            </div>
+                          </div>
+                        </div>
+                               
+                          </body>
+                          </html>
                     </nav>
             </header>
         </header>
-
         <main class="grid-container">
             <div class="grid-item">
                 <img src="billeder/billed-1.avif" alt="Image 1" class="image">
@@ -58,31 +108,6 @@
                 <img src="billeder/billed-3demin.png" alt="Image 3" class="image">
               </div>
         </main>
-
-        <section>
-            <div class="carousel" data-carousel>
-                <button class="carousel-button prev" data-carousel-button ="prev" >&#10094;</button>
-                <button class="carousel-button next" data-carousel-button ="next">&#10095;</button>
-                    <ul data-slides>
-                        <li class="slide" data-active>
-                            <img src="billeder/hogm1.jpeg" alt="slide 1">
-                        </li>
-        
-                        <li class="slide">
-                            <img src="billeder/hogm2.jpeg" alt="slide 2">
-                        </li>
-        
-                        <li class="slide">
-                            <img src="billeder/hogm3.jpeg" alt="slide 3">
-                        </li>
-        
-                        <li class="slide">
-                            <img src="billeder/hogm4.jpeg" alt="slide 4">
-                        </li>
-                    </ul>
-                </div>
-        </section>
-
         <footer>
             <footer>
                 <section class="flex-container-titles">
