@@ -1,8 +1,8 @@
-var searchTerms = ['sko', 'jenas', 'jakker','tøj', 'beauty', 'sport','accessories'];
+let searchTerms = ['sko', 'jeans', 'jakker','tøj', 'beauty', 'sport','accessories'];
 
 
 function toggleSearch() {
-    var searchBar = document.getElementById('searchBar');
+    let searchBar = document.getElementById('searchBar');
     if (searchBar.classList.contains('active')) {
         searchBar.classList.remove('active');
     } else {
@@ -11,12 +11,10 @@ function toggleSearch() {
 }
 
 function search() {
-    for (var i = 0; i < searchTerms.length; i++) {
+    for (let i = 0; i < searchTerms.length; i++) {
         var searchTerm = searchTerms[i];
         if (searchTerm !== '') {
             console.log('Søger efter: ' + searchTerm);
-        } else {
-            console.log('Indtast venligst et søgeord ' + (i + 1));
-        }
     }
-  }
+}
+}
