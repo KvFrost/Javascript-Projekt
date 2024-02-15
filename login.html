@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Log ind | H&M</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://db.onlinewebfonts.com/c/70f3e46b3bb904260d1b1a6e0f2edf08?family=HM+Sans+Regular"
+      rel="stylesheet"
+    />
+    <script src="login.js" defer></script>
+  </head>
+  <body>
+    <form id="login-form">
+      <p>Log ind</p>
+      <p>Bliv medlem – gå ikke glip af tilbud, rabatter og bonus-rewards.</p>
+      <div class="login-group">
+        <label for="username">E-mail</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <div class="login-form">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div id="husk-mig">
+        <input type="checkbox" id="husk-mig" name="husk-mig" />
+        <label for="husk-mig">Husk mig</label>
+        <p>Har du glemt dit password?</p>
+        <button type="submit">Log ind</button>
+      </div>
+    </form>
+    <p id="error-message"></p>
+  </body>
+</html>

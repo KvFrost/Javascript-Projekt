@@ -62,9 +62,9 @@ body {
   padding-right: 15px;
 }
 
- /*Search bar del med slide in effekt*/
-  
- .search-bar {
+/*Search bar del med slide in effekt*/
+
+.search-bar {
   position: absolute;
   left: -80%; /* Startposition uden for synlighed */
   top: 0;
@@ -92,11 +92,11 @@ body {
   align-items: flex-start;
 }
 
-.close-icon img{
+.close-icon img {
   width: 30px;
 }
 
-.search-button img{
+.search-button img {
   width: 30px;
 }
 
@@ -132,7 +132,9 @@ body {
 }
 
 /*Section / gallari*/
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -178,17 +180,17 @@ body {
   font-size: 4rem;
   top: 50%;
   transform: translateY(-50%);
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   border-radius: 25rem;
-  padding: 0 .5rem;
-  background-color: rgba(0, 0, 0, .1);
+  padding: 0 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .carousel-button:hover,
 .carousel-button:focus {
   color: white;
-  background-color: rgba(0, 0, 0, .2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .carousel-button.prev {
@@ -199,7 +201,6 @@ body {
   right: 1rem;
 }
 
-
 /*Footer*/
 
 .flex-container-titles {
@@ -208,7 +209,8 @@ body {
   justify-content: flex-start;
   padding-bottom: 4rem;
 }
-a:link , a:visited {
+a:link,
+a:visited {
   text-decoration: none;
 }
 
@@ -227,7 +229,8 @@ h3 {
   font-weight: 100;
 }
 
-.text-footer, h3 {
+.text-footer,
+h3 {
   padding-bottom: 17px;
 }
 
@@ -278,7 +281,6 @@ h3 {
   display: block;
   transition: 0.3s;
   padding-left: 15px;
-
 }
 
 .overlay-content1 {
@@ -315,9 +317,10 @@ h3 {
   font-size: 15px;
   padding-top: 15rem;
   border-spacing: 50px;
-  }
+}
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: rgb(82, 81, 81);
 }
 
@@ -337,14 +340,14 @@ h3 {
 .overlay-content {
   text-align: left;
   font-size: 15px;
-  padding: 0 15px; 
+  padding: 0 15px;
 }
 
 .overlay-content1,
 .overlay-content2,
 .overlay-content3,
 .overlay-content4 {
-  width: 50%; 
+  width: 50%;
 }
 
 .overlay-content3,
@@ -356,10 +359,54 @@ h3 {
 
 .overlay-content a {
   display: block;
-  padding: 10px 0; 
+  padding: 10px 0;
 }
 
 #color {
   color: red;
 }
 
+#form-group {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 15px 0;
+}
+
+input {
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  border: 0;
+  box-shadow: none;
+  padding: 15px;
+  width: 300px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #454545;
+}
+
+#husk-mig {
+  width: 450px;
+  padding: 10px;
+  margin: 15px;
+}
